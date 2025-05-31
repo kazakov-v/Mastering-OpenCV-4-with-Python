@@ -62,4 +62,3 @@ while capture.isOpened():
 capture.release()
 out_gray.release()
 cv2.destroyAllWindows()
-

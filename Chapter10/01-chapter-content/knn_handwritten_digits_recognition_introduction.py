@@ -80,5 +80,3 @@ ret, result, neighbours, dist = knn.findNearest(raw_descriptors_test, k)
 # Compute the accuracy:
 acc = get_accuracy(result, labels_test)
 print("Accuracy: {}".format(acc))
-
-

@@ -3,9 +3,9 @@ Aruco camera calibration
 """
 
 # Import required packages:
-import time
+# import time
 import cv2
-import numpy as np
+# import numpy as np
 import pickle
 
 # Create dictionary and board object:
@@ -52,7 +52,7 @@ for i in range(300):
 # Calibration can fail for many reasons:
 try:
     cal = cv2.aruco.calibrateCameraCharuco(all_corners, all_ids, board, gray.shape, None, None)
-except:
+except Exception:
     cap.release()
     print("Calibration could not be done ...")
 

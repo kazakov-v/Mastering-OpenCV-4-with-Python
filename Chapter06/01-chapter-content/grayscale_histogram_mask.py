@@ -15,6 +15,7 @@ def show_img_with_matplotlib(color_img, title, pos):
     img_RGB = color_img[:, :, ::-1]
 
     ax = plt.subplot(2, 2, pos)
+    ax  # flake8
     plt.imshow(img_RGB)
     plt.title(title)
     plt.axis('off')
@@ -24,6 +25,7 @@ def show_hist_with_matplotlib_gray(hist, title, pos, color):
     """Shows the histogram using matplotlib capabilities"""
 
     ax = plt.subplot(2, 2, pos)
+    ax  # flake8
     # plt.title(title)
     plt.xlabel("bins")
     plt.ylabel("number of pixels")

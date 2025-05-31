@@ -54,6 +54,7 @@ def show_with_matplotlib(color_img, title, pos):
     img_RGB = color_img[:, :, ::-1]
 
     ax = plt.subplot(len(image_names), len(morphological_operations) + 1, pos)
+    ax  # flake8
     plt.imshow(img_RGB)
     plt.title(title)
     plt.axis('off')

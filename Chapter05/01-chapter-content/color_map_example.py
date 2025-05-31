@@ -15,6 +15,7 @@ def show_with_matplotlib(color_img, title, pos):
 
     # Add the subplot to the created figure
     ax = plt.subplot(1, 2, pos)
+    ax  # flake8
     plt.imshow(img_RGB)
     plt.title(title)
     plt.axis('off')

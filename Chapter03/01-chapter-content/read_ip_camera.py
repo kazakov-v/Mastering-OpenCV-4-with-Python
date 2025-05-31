@@ -21,9 +21,9 @@ args = parser.parse_args()
 capture = cv2.VideoCapture(args.ip_url)
 
 # Check if camera opened successfully
-if capture.isOpened()is False:
+if capture.isOpened() is False:
     print("Error opening the camera")
- 
+
 # Read until the video is completed, or 'q' is pressed
 while capture.isOpened():
     # Capture frame-by-frame from the camera
@@ -45,7 +45,7 @@ while capture.isOpened():
     # Break the loop
     else:
         break
- 
+
 # Release everything:
 capture.release()
 cv2.destroyAllWindows()

@@ -30,7 +30,7 @@ print("CV_CAP_PROP_FRAME_HEIGHT : '{}'".format(frame_height))
 print("CAP_PROP_FPS : '{}'".format(fps))
 
 # Check if camera opened successfully
-if capture.isOpened()is False:
+if capture.isOpened() is False:
     print("Error opening the camera")
 
 # Read until the video is completed, or 'q' is pressed
@@ -68,7 +68,7 @@ while capture.isOpened():
     # Break the loop
     else:
         break
- 
+
 # Release everything:
 capture.release()
 cv2.destroyAllWindows()

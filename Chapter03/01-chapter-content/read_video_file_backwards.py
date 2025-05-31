@@ -21,7 +21,7 @@ args = parser.parse_args()
 capture = cv2.VideoCapture(args.video_path)
 
 # Check if camera opened successfully:
-if capture.isOpened()is False:
+if capture.isOpened() is False:
     print("Error opening video stream or file")
 
 # We get the index of the last frame of the video file:
@@ -57,14 +57,14 @@ while capture.isOpened() and frame_index >= 0:
         # Decrement the index to read next frame:
         frame_index = frame_index - 1
         print("next index to read: '{}'".format(frame_index))
- 
+
         # Press q on keyboard to exit the program:
         if cv2.waitKey(25) & 0xFF == ord('q'):
             break
     # Break the loop
     else:
         break
- 
+
 # Release everything:
 capture.release()
 cv2.destroyAllWindows()

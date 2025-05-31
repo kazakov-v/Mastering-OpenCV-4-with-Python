@@ -16,6 +16,7 @@ def show_img_with_matplotlib(color_img, title, pos):
     img_RGB = color_img[:, :, ::-1]
 
     ax = plt.subplot(1, 1, pos)
+    ax  # flake8
     plt.imshow(img_RGB)
     plt.title(title)
     plt.axis('off')

@@ -32,4 +32,3 @@ print("args_dict dictionary: '{}'".format(args_dict))
 
 # For example, to get the first argument using this dictionary:
 print("first argument from the dictionary: '{}'".format(args_dict["first_number"]))
-

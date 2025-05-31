@@ -40,4 +40,3 @@ cv2.waitKey(0)
 
 # Destroy all windows:
 cv2.destroyAllWindows()
-

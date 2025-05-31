@@ -72,4 +72,3 @@ computed_distances_ordered, ordered_names = compare_faces_ordered(known_encoding
 print(computed_distances)
 print(computed_distances_ordered)
 print(ordered_names)
-

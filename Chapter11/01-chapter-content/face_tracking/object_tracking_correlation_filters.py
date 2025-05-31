@@ -75,7 +75,7 @@ while True:
         dlib_rectangle = dlib.rectangle(points[0][0], points[0][1], points[1][0], points[1][1])
 
     # If tracking, update tracking and get the position of the tracked object to be drawn:
-    if tracking_state == True:
+    if tracking_state is True:
         # Update tracking
         tracker.update(frame)
         # Get the position of the tracked object:

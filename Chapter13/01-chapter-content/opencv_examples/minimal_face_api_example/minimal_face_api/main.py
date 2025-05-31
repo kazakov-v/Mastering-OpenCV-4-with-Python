@@ -24,10 +24,10 @@ def not_found(e):
     return jsonify({"status": "not found", "message": "route not found"}), 404
 
 
-@app.errorhandler(500)
-def not_found(e):
-    # return also the code error
-    return jsonify({"status": "internal error", "message": "internal error occurred in server"}), 500
+# @app.errorhandler(500)
+# def not_found(e):
+#     # return also the code error
+#     return jsonify({"status": "internal error", "message": "internal error occurred in server"}), 500
 
 
 @app.route('/detect', methods=['GET', 'POST', 'PUT'])

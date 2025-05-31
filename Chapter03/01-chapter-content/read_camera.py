@@ -29,9 +29,9 @@ print("CV_CAP_PROP_FRAME_HEIGHT : '{}'".format(frame_height))
 print("CAP_PROP_FPS : '{}'".format(fps))
 
 # Check if camera opened successfully
-if capture.isOpened()is False:
+if capture.isOpened() is False:
     print("Error opening the camera")
- 
+
 # Read until video is completed
 while capture.isOpened():
     # Capture frame-by-frame from the camera
@@ -46,14 +46,14 @@ while capture.isOpened():
 
         # Display the grayscale frame:
         cv2.imshow('Grayscale input camera', gray_frame)
- 
+
         # Press q on keyboard to exit the program
         if cv2.waitKey(20) & 0xFF == ord('q'):
             break
     # Break the loop
     else:
         break
- 
+
 # Release everything:
 capture.release()
 cv2.destroyAllWindows()
