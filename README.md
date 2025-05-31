@@ -7,7 +7,7 @@
 
 This is the code repository for [Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python?utm_source=github&utm_medium=repository&utm_campaign=9781789344912 ), published by Packt.
 
-<img src="https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python/blob/master/MO4WP_Cover.png" alt="Mastering OpenCV 4 with Python" height="256px" align="center"></a>
+<img src="MO4WP_Cover.png" alt="Mastering OpenCV 4 with Python" height="256px" align="center"></a>
 
 **A practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7**
 
@@ -15,16 +15,16 @@ This is the code repository for [Mastering OpenCV 4 with Python](https://www.pac
 OpenCV is considered to be one of the best Open Source Computer Vision and machine learning software libraries. It helps developers build complete projects on image processing, motion detection, and image segmentation. OpenCV for Python enables you to run computer vision algorithms smoothly in real time, combining the best of the OpenCV C++ API and the Python language.
 
 This book covers the following exciting features:
-* Handle files and images, and explore various image processing techniques 
-* Explore image transformations like translation, resizing, and cropping 
-* Gain insights into building histograms 
-* Brush up on contour detection, filtering, and drawing 
-* Work with augmented reality and 3D visualization frameworks 
-* Work with machine learning, deep learning, and neural network algorithms 
+* Handle files and images, and explore various image processing techniques
+* Explore image transformations like translation, resizing, and cropping
+* Gain insights into building histograms
+* Brush up on contour detection, filtering, and drawing
+* Work with augmented reality and 3D visualization frameworks
+* Work with machine learning, deep learning, and neural network algorithms
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789344913) today!
 
-<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png"
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
@@ -62,12 +62,12 @@ Make sure that the version numbers of your installed packages are equal to, or g
 ```
 pip install opencv-contrib-python==4.0.0.21
 ```
-It should be noted that OpenCV requires: ``numpy`` 
+It should be noted that OpenCV requires: ``numpy``
 
-``numpy-1.16.1`` has been installed when installing ``opencv-contrib-python==4.0.0.21`` 
+``numpy-1.16.1`` has been installed when installing ``opencv-contrib-python==4.0.0.21``
 
  * Install matplotlib:
- 
+
 ```
 pip install matplotlib==3.0.2
 ```
@@ -85,7 +85,7 @@ It should be noted that scikit-image requires: ``cloudpickle decorator networkx 
 
  * Install scipy:
 ```
-pip install scipy==1.2.1 
+pip install scipy==1.2.1
 ```
 It should be noted that scipy requires: ``numpy``
 
@@ -93,7 +93,7 @@ It should be noted that scipy requires: ``numpy``
 
  * Install dlib:
 ```
-pip install dlib==19.8.1 
+pip install dlib==19.8.1
 ```
 
  * Install face-recognition:
@@ -120,22 +120,22 @@ It should be noted that requests requires: ``urllib3 chardet certifi idna``
 
  * Install progressbar:
 ```
-pip install progressbar==2.5 
+pip install progressbar==2.5
 ```
 
  * Install keras:
- 
+
 ```
 pip install keras==2.2.4
-``` 
+```
 It should be noted that keras requires: ``numpy six h5py keras-applications scipy keras-preprocessing pyyaml``
 
 ``h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 numpy-1.16.1 pyyaml-3.13 scipy-1.2.1 six-1.12.0`` have been installed when installing ``keras==2.2.4``
 
  * Install tensorflow:
- 
+
 ```
-pip install tensorflow==1.12.0 
+pip install tensorflow==1.12.0
 ```
 It should be noted that tensorflow requires: ``termcolor numpy wheel gast six setuptools protobuf markdown grpcio werkzeug tensorboard absl-py h5py keras-applications keras-preprocessing, astor``
 
