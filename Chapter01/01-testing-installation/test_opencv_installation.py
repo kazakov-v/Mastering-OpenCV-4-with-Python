@@ -7,7 +7,7 @@ import cv2
 
 # Use the function cv2.imread() to read an image.
 # The image should be in the working directory or a full path of image should be provided.
-# load OpenCV logo image: 
+# load OpenCV logo image:
 image = cv2.imread("logo.png")
 
 # Use cv2.cvtColor() to convert an image from one color format to another

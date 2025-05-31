@@ -59,10 +59,3 @@ def test_convert_to_grayscale():
     bgr_height, bgr_width, bgr_channels = bgr_image.shape
     gray_height, gray_width = gray_image.shape
     assert bgr_height == gray_height and bgr_width == gray_width
-
-
-
-
-
-
-

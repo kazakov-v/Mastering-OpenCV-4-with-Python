@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print("hellopencv.py is being run directly")
 
     # print the message returned by the function show_message
-    print(show_message());
+    print(show_message())
 
     # load image
     bgr_image = load_image("images/logo.png")
